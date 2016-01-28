@@ -1,4 +1,4 @@
-angular.module('templateApp')
+angular.module('CustomDirectiveApp')
   .controller("MainController", [MainController]);
 
 function MainController(){
