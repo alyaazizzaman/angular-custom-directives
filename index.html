@@ -4,11 +4,14 @@
     <meta charset="utf-8">
     <title></title>
   </head>
-  <body>
+  <body ng-controller="YoyoController">
 
-    <aa-yum-cheese></aa-yum-cheese>
-    <div aa-yum-cheese></div>
+    <!-- <aa-yum-cheese></aa-yum-cheese>
+    <div aa-yum-cheese></div> -->
 
+    <aa-yoyo-details yoyo-data='yoyo'></aa-yoyo-details>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
     <script src='./js/app.js'></script>
     <script src='./js/controllers.js'></script>
